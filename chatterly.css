@@ -36,7 +36,7 @@ span{
     margin-top: 7px;
     margin-bottom: 4px;
 }
-img{
+.photo{
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -135,4 +135,155 @@ input{
     font-size: smaller;
     color: rgb(58, 54, 54);
     margin-left: 246px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card{
+    height: 385px;
+    width: 350px;
+    background:#FFFFFF ;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+}
+.img1{
+    width: 310px;
+    height: 200px;
+    position: relative;
+    top: 17px;
+    left: 18px;
+    gap: 0px;
+    border-radius: 12.6px ;
+    opacity: 0px;
+}
+hr{
+    position: relative;
+    top: 50px;
+    color:#ECECEC;
+}
+.card1{
+    width: 310px;
+height: 50px;
+position: relative;
+top: 37px;
+left: 18px;
+gap: 0px;
+opacity: 0px;
+Name: 20 px - Sub Heading 2;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 25.2px;
+text-align: left;
+
+}
+.pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    margin-left: 18px ;
+    top: 68px;
+}
+.pic-text{
+    position: relative;
+    top: 35px;
+    margin-left: 55px;
+    Name: 16 px - Paragraph 3 Semi bold;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: left;
+}
+.pic-text2{
+    position: relative;
+    top: 35px;
+    margin-left: 55px;
+    Name: 14 px - Paragraph 4;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #797979;
+}
+.heart{
+    width: 12px;
+height: 10px;
+font-size: 16px;
+top: 18px;
+left: 70px;
+gap: 0px;
+opacity: 0px;
+color: #A5A5A5;
+
+}
+.likes{
+    position: relative;
+    top: 8px;
+left: 180px;
+font-size: 14px;
+font-weight: 400;
+line-height: 15.12px;
+text-align: left;
+color: #787878;
+}
+.comment{
+    width: 15px;
+    height: 13px;
+    font-size: 17px;
+    top: -7px;
+    left: 125px;
+    gap: 0px;
+    opacity: 0px;
+    color: #A5A5A5;
+}
+.comments{
+    position: relative;
+    top: -20px;
+left: 235px;
+font-size: 14px;
+font-weight: 400;
+line-height: 15.12px;
+text-align: left;
+color: #787878;
+}
+.card2{
+    width: 310px;
+height: 50px;
+position: relative;
+top: 37px;
+left: 18px;
+gap: 0px;
+opacity: 0px;
+Name: 20 px - Sub Heading 2;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 25.2px;
+text-align: left;
+}
+.card3{
+    width: 310px;
+height: 50px;
+position: relative;
+top: 37px;
+left: 18px;
+gap: 0px;
+opacity: 0px;
+Name: 20 px - Sub Heading 2;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 25.2px;
+text-align: left;
 }
