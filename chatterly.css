@@ -1,6 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F5F8FF;
+    font-family: Plus Jakarta Sans;
+}
 .header{
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 span{
     display: flex;
@@ -9,35 +18,42 @@ span{
     position: relative;
     top: 15px;
     font-size: 20px;
-
+    font-family: Plus Jakarta Sans;
+   
 }
 .chat{
-   margin-left: 160px;
+   margin-left: 169px;
    position: relative;
-   top: -17px;
-    color: blue;
+   top: -20px;
+    color: rgb(13, 13, 203);
 }
 .profile{
     display: flex;
     justify-content: right;
     margin-right: 70px;
     position: relative;
-    top: -2px;
+    top: 0px;
+    margin-top: 7px;
+    margin-bottom: 4px;
 }
 img{
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
     display: flex;
     justify-content: right;
 }
 select{
     border: none;
 }
-hr{
-    color: gray;
-}
 .main{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 65px;
+    box-shadow: 10px 2px 4px 2px rgba(62,60,60,0.6);
+}
+.head2{
     display: flex;
     justify-content: space-between;
 }
@@ -45,46 +61,49 @@ hr{
     color: rgb(56, 51, 51);
     position: relative;
     margin-bottom: 10px;
-    font-size: 20px;
-    margin-left: 90px;
+    font-size: 14px;
+    margin-left: 100px;
 
 }
 .vertical{
     border-left: 1px solid gray;
     height: 50px;
-    margin-left: 160px;
+    margin-left: 25px;
     position: relative;
-    top:-30px;
+    top:10px;
+}
+.dropdowns{
+    display: flex; 
+    align-items: center;
+    margin-left: 25px;
+}
+#by{
+    color: rgb(58, 54, 54);
+    font-size: 13px;
 }
 .by{
-    margin-left: 180px;
-    position: relative;
-    top: -80px;
     color: rgb(58, 54, 54);
-
+    font-size: 13px;
 }
 .all{
-    margin-left:0px ;
-    position: relative;
-    left: -80px;
-    top: 25px;
     color: rgb(58, 54, 54);
-    background-color: rgb(218, 218, 218);
+    background-color: #F0F1F1;
     width: 150px;
     height: 30px;
     border-radius: 20px;
-    text-align:50px;
-    padding: 0px;
+}
+#date{
+    color: rgb(58, 54, 54);
+    font-size: 13px;
 }
 .date{
-    margin-left: 350px;
-    position: relative;
-    top: -105px;
+    margin-left: 25px;
+    font-size: 13px;
     color: rgb(58, 54, 54);
 }
 .selectdate{
     color: rgb(58, 54, 54);
-    background-color: rgb(218, 218, 218);
+    background-color: #F0F1F1;
     width: 150px;
     height: 30px;
     border-radius: 20px;
@@ -93,23 +112,27 @@ hr{
     position: relative;
     top: -10px;
     color: rgb(58, 54, 54);
-    margin-left: 400px;
+    margin-right: 70px;
+}
+.text{
+    font-size: 13px;
 }
 input{
-    margin-left: 90px;
+    margin-left: 85px;
     position: relative;
     top: 15px;
     color: rgb(58, 54, 54);
     border-radius: 20px;
     border: none;
-    height:25px ;
+    height:29px ;
     width: 180px;
-    background-color: rgb(218, 218, 218);
-    
+    background-color: #F0F1F1;
+    outline: none;
 }
 .searchicon{
     position: relative;
-    top: -10px;
+    top: -5px;
+    font-size: smaller;
     color: rgb(58, 54, 54);
-    margin-left: 0px;
+    margin-left: 246px;
 }
