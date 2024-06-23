@@ -168,7 +168,9 @@ input{
 hr{
     position: relative;
     top: 50px;
-    color:#ECECEC;
+    border:1px solid #ECECEC;
+    width: 305px;
+    margin-left: 18.5px;
 }
 .card1{
     width: 310px;
